@@ -46,8 +46,9 @@ public class Benzinbil extends Bil{
     
     @Override
     public String toString() {
-        return "Benzin bil: "
+        return "Benzin bilx: "
                 + super.toString()
+                + "\nDoors: " + getAntalDøre()
                 + "\noktanTal: " + oktanTal
                 + "\nkmPrL:" + kmPrL
                 + "\nafgift: " + beregnGrønEjerafgift();
