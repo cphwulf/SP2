@@ -7,7 +7,7 @@ public class SP1 {
         // Benzin Biler
         Benzinbil bb1 = new Benzinbil(2004,4,"1234-abc","Volvo","1",11,3);
         Benzinbil bb2 = new Benzinbil(2004,4,"2134-bac","Volvo","2",5,7);
-        Benzinbil bb3 = new Benzinbil(2004,4,"4321-cba","Volvo","3",11,11);
+        Bil bb3 = new Benzinbil(2004,4,"4321-cba","Volvo","3",11,11);
         System.out.println("B:");
         bb3.toString();
         System.out.println("Ba:");
